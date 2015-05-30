@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/src/main/resources/logback.xml,/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/src/main/resources/props,/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/target/scala-2.11/classes/props)[0m
+[0m[[0mdebug[0m] [0m	(/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/src/main/resources/props/default.props,/Users/nando/Documents/3DSQuito/lift-lift_26_sbt-d71cccf/scala_211/lift_basic/target/scala-2.11/classes/props/default.props)[0m

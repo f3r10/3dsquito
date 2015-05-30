@@ -1,0 +1,252 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>Mobilize</title> 
+   
+<!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  -->
+</head>
+<style>
+        span.reference{
+            position:fixed;
+            left:5px;
+            top:5px;
+            font-size:10px;
+            text-shadow:1px 1px 1px #fff;
+        }
+        span.reference a{
+            color:#555;
+            text-decoration:none;
+			text-transform:uppercase;
+        }
+        span.reference a:hover{
+            color:#000;
+            
+        }
+        h1{
+            color:#ccc;
+            font-size:36px;
+            text-shadow:1px 1px 1px #fff;
+            padding:20px;
+        }
+    </style> 
+<body>
+
+<div data-role="page" data-lift-content-id="main">
+
+<!-- slider -->
+	<script type="text/javascript">
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+				  animation: "slide",
+				  controlsContainer: ".flex-container"
+			  });
+			});
+		</script>
+<!-- /slider -->
+    <div id="main" data-lift="surround?with=default;at=content">
+    <!-- header -->
+	<div data-role="header" class="page-header">
+    	<div class="logo"></div>
+	</div>
+    <!--/header --> 
+    
+    <!-- slider -->
+    <div class="flex-container">
+		<div class="flexslider">
+		    <ul class="slides">
+		    	<li>
+		    		<img src="assets/images/demo/slides/1.jpg" alt="slide">
+		    		<p class="flex-caption">Touch Optimized Responsive Slider!</p>
+	    	  	</li>
+		    	<li>
+		    		<img src="assets/images/demo/slides/2.jpg" alt="slide">
+		    		<p class="flex-caption"> &laquo; Swipe Horizontally with Finger &raquo;</p>
+	    	  	</li>
+		    	<li>
+		    		<img src="assets/images/demo/slides/3.jpg" alt="slide">                </li>
+		    	<li>
+		    		<img src="assets/images/demo/slides/4.jpg" alt="slide">                </li>
+		    </ul>
+		</div>
+	</div>
+  <div class="shadow1box"><img src="assets/images/shadow1.png" class="shadow1" alt="shadow"></div>
+    <!-- /slider -->   
+    
+	<!-- main content -->
+  	<div data-role="content" >
+  	
+    <hr class="ornamental"/>
+  		<h3 class="home-title">Welcome to Mobilize!</h3>
+	<hr class="ornamental"/>
+
+		<div id="content">
+            <h1>Fancy Sliding Form with jQuery</h1>
+            <div id="wrapper">
+                <div id="steps" class="panel-body">
+                    <form id="formElem" name="formElem" action="" method="post">
+                        <fieldset class="step">
+                            <legend>Account</legend>
+                            <p>
+                                <label for="username">User name</label>
+                                <input id="username" name="username" />
+                            </p>
+                            <p>
+                                <label for="email">Email</label>
+                                <input id="email" name="email" placeholder="info@tympanus.net" type="email" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="password">Password</label>
+                                <input id="password" name="password" type="password" AUTOCOMPLETE=OFF />
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Personal Details</legend>
+                            <p>
+                                <label for="name">Full Name</label>
+                                <input id="name" name="name" type="text" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="country">Country</label>
+                                <input id="country" name="country" type="text" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="phone">Phone</label>
+                                <input id="phone" name="phone" placeholder="e.g. +351215555555" type="tel" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="website">Website</label>
+                                <input id="website" name="website" placeholder="e.g. http://www.codrops.com" type="tel" AUTOCOMPLETE=OFF />
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Payment</legend>
+                            <p>
+                                <label for="cardtype">Card</label>
+                                <select id="cardtype" name="cardtype">
+                                    <option>Visa</option>
+                                    <option>Mastercard</option>
+                                    <option>American Express</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="cardnumber">Card number</label>
+                                <input id="cardnumber" name="cardnumber" type="number" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="secure">Security code</label>
+                                <input id="secure" name="secure" type="number" AUTOCOMPLETE=OFF />
+                            </p>
+                            <p>
+                                <label for="namecard">Name on Card</label>
+                                <input id="namecard" name="namecard" type="text" AUTOCOMPLETE=OFF />
+                            </p>
+                        </fieldset>
+                        <fieldset class="step">
+                            <legend>Settings</legend>
+                            <p>
+                                <label for="newsletter">Newsletter</label>
+                                <select id="newsletter" name="newsletter">
+                                    <option value="Daily" selected>Daily</option>
+                                    <option value="Weekly">Weekly</option>
+                                    <option value="Monthly">Monthly</option>
+                                    <option value="Never">Never</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="updates">Updates</label>
+                                <select id="updates" name="updates">
+                                    <option value="1" selected>Package 1</option>
+                                    <option value="2">Package 2</option>
+                                    <option value="0">Don't send updates</option>
+                                </select>
+                            </p>
+							<p>
+                                <label for="tagname">Newsletter Tag</label>
+                                <input id="tagname" name="tagname" type="text" AUTOCOMPLETE=OFF />
+                            </p>
+                        </fieldset>
+						<fieldset class="step">
+                            <legend>Confirm</legend>
+							<p>
+								Everything in the form was correctly filled 
+								if all the steps have a green checkmark icon.
+								A red checkmark icon indicates that some field 
+								is missing or filled out with invalid data. In this
+								last step the user can confirm the submission of
+								the form.
+							</p>
+                            <p class="submit">
+                                <button id="registerButton" type="submit">Register</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="navigation" style="display:none;">
+                    <ul>
+                        <li class="selected">
+                            <a href="#">Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Personal Details</a>
+                        </li>
+                        <li>
+                            <a href="#">Payment</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+						<li>
+                            <a href="#">Confirm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	
+
+	<!-- social -->
+    <div class="social">
+    	<a href="http://on.fb.me/x0BFYB"><img src="assets/images/social/fb-b.png" alt="facebook"></a>
+    	<a href="http://twitter.com/beantowndesign"><img src="assets/images/social/twitter2-b.png" alt="twitter"></a>
+    	<a href="#"><img src="assets/images/social/linkedin-b.png" alt="linkedin"></a>
+    	<a href="#"><img src="assets/images/social/dribble-b.png" alt="dribble"></a>
+    	<a href="#"><img src="assets/images/social/wordpress-b.png" alt="wordpress"></a>
+    </div>
+    <!-- /social -->
+
+    
+  </div>
+  <!-- /main content -->    
+    
+    <!-- footer -->
+	<div data-role="footer">
+		<div data-role="navbar" class="custom-icons" data-grid="c">
+			<ul>
+				<li><a href="http://bit.ly/yx2mXZ" id="footprints" data-icon="custom" data-theme="b">Directions</a></li>
+				<li><a href="tel:18005551234" id="cell" data-icon="custom" data-theme="b">Call Us</a></li>
+				<li><a href="portfolio.html" id="brush" data-icon="custom" data-theme="b" data-ajax="false">Portfolio</a></li>
+				<li><a href="twitter.html" id="twitter" data-icon="custom" data-theme="b" data-ajax="false">Tweets</a></li>
+			</ul>
+		</div>
+       
+	</div>
+	<!-- /footer -->
+    
+</div><!-- /page -->
+
+
+<!-- SCRIPTS -->
+
+<!-- add to homepage bubble on iphone, ipad  -->
+<script type="text/javascript">
+	if ('standalone' in navigator && !navigator.standalone && (/iphone|ipod|ipad/gi).test(navigator.platform) && (/Safari/i).test(navigator.appVersion)) {
+		document.write('<link rel="stylesheet" href="assets\/add-bubble\/style\/add2home.css">');
+		document.write('<script type="application\/javascript" src="assets\/add-bubble\/src\/add2home.js" charset="utf-8"><\/s' + 'cript>');
+	}
+</script>
+<!-- /add to homepage bubble on iphone, ipad  --> 
+</div>
+</body>
+</html>
